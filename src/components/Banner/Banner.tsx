@@ -1,0 +1,9 @@
+import styles from './Banner.module.css'
+
+type BannerProps = {src: string, alt: string}
+
+export const Banner = ({src, alt}: BannerProps) => {
+    return (
+        <img src={src} alt={alt} className={styles.banner}></img>
+    )
+}
