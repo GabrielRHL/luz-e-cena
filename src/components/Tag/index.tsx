@@ -3,10 +3,10 @@ import styles from './Tag.module.css'
 
 type Category = '2D' | '3D'
 
-type Censor = "Livre" | "10 anos" | "12 anos" | "14 anos" | "16 anos";
+type Censorship = "Livre" | "10 anos" | "12 anos" | "14 anos" | "16 anos";
 
 interface TagProps {
-    value: Category | Censor
+    value: Category | Censorship
 }
 
 const tagClasses = {
