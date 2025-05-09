@@ -91,7 +91,8 @@ const movies: Movie[]= [
 
 export const MovieSection = () => {
     return (
-        <section className={styles.container}>
+        <main>
+            <section className={styles.container}>
             <Fieldset variant='secondary'>
                 <InputText placeholder='Buscar filmes...' />
                 <Button variant='icon'>
@@ -101,5 +102,6 @@ export const MovieSection = () => {
             <h1 className={styles.title}></h1>
             <MovieList movies={movies}/>
         </section>
+        </main>
     )
 }
