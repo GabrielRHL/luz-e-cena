@@ -1,9 +1,6 @@
 import classNames from 'classnames';
 import styles from './Tag.module.css'
-
-type Category = '2D' | '3D'
-
-type Censorship = "Livre" | "10 anos" | "12 anos" | "14 anos" | "16 anos";
+import { Category, Censorship } from '../../types';
 
 interface TagProps {
     value: Category | Censorship
