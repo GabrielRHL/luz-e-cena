@@ -9,13 +9,13 @@ import { Movie } from '../../types'
 const movies: Movie[]= [
     {
         id: 1,
-        src: "public/imgs/cards/",
-        alt: "Imagem do filme Amanhecer",
-        title: "Amanhecer",
+        src: "public/imgs/cards/Marley e Eu.jpg",
+        alt: "Imagem do filme Marley e Eu",
+        title: "Marley e Eu",
         category: "2D",
         censorship: "Livre",
-        gender: "Romance",
-        duration: 90,
+        gender: "Comédia dramática",
+        duration: 120,
     },
     {
         id: 2,
