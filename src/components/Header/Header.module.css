@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     gap: var(--gap-xl);
-    background-color: var(--branco);
     padding: var(--padding-s) 0;
   }
   

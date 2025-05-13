@@ -17,4 +17,5 @@
 
 .navigation li a {
     display: block;
+    color: var(--branco);
 }

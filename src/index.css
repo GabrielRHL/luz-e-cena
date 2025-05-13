@@ -1,6 +1,6 @@
 :root {
   --preto: #1e1e1e;
-  --cinza: #393E46;
+  --cinza: #525761;
   --cinza-escuro: #252530;
   --cinza-medio: #a6a6a6;
   --cinza-claro: #efefef;
@@ -48,12 +48,16 @@
   --margin-xxl: 6rem;
 }
 
+* {
+  color: var(--branco);
+}
+
 body {
   width: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  background-color: var(--cinza);
   font-family: var(--fonte-texto);
   font-size: var(--font-size-s);
   font-weight: 400;
