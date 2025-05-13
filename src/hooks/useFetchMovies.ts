@@ -23,7 +23,7 @@ export const useFetchMovies = () => {
 
     useEffect(() => {
         fetchMovies()
-    })
+    }, [])
     
     return {movies, loading, error}
 }
