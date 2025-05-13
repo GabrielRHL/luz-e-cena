@@ -21,7 +21,7 @@ export const MovieSection = () => {
                 onChange={(event: React.ChangeEvent<HTMLInputElement>) => setSearchTerm(event.target.value)} 
                 placeholder='Buscar filmes...' 
                 />
-                <Button variant='icon' onClick={handleSearch}>
+                <Button variant='white' onClick={handleSearch}>
                     <FaSearch />
                 </Button>
             </Fieldset>

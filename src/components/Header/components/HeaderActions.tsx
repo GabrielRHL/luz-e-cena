@@ -4,10 +4,10 @@ import { Button } from "../../Button"
 export const HeaderActions = () => {
     return (
         <div>
-            <Button variant="icon">
+            <Button variant="white">
                 <HiOutlineShoppingCart />
             </Button>
-            <Button variant="icon">
+            <Button variant="white">
                 <HiOutlineUser />
             </Button>
         </div>

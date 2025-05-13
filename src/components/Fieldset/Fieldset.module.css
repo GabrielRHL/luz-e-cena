@@ -13,8 +13,8 @@
 }
 
 .secondary {
-    border: 3px solid var(--border-color);
-    background-color: none;
+    border: 3px solid var(--branco);
+    background-color: var(--cinza-escuro);
 }
 
 .inputWrapper::placeholder {

@@ -48,10 +48,6 @@
   --margin-xxl: 6rem;
 }
 
-* {
-  color: var(--branco);
-}
-
 body {
   width: 100%;
   margin: 0;
